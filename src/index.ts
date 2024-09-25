@@ -1,8 +1,8 @@
 export const textSimilarity = (
-    str1: string,
-    str2: string,
-    substringLength: number = 2,
-    caseSensitive: boolean = false
+  str1: string,
+  str2: string,
+  substringLength: number = 2,
+  caseSensitive: boolean = false,
 ) => {
   if (!caseSensitive) {
     str1 = str1.toLowerCase();
@@ -31,7 +31,8 @@ export const textSimilarity = (
     }
   }
 
-  const score = (match * 2) / (str1.length + str2.length - (substringLength - 1) * 2);
+  const score =
+    (match * 2) / (str1.length + str2.length - (substringLength - 1) * 2);
 
   return Math.min(1, score * boost);
 };

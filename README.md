@@ -19,15 +19,14 @@ npm install text-similarity
 ```tsx
 import { textSimilarity } from "text-similarity";
 
-const similarity1 = textSimilarity('hello world', 'hello', 2); // Default parameters (substring length: 2, case insensitive)
-console.log(similarity1); 
+const similarity1 = textSimilarity("hello world", "hello", 2); // Default parameters (substring length: 2, case insensitive)
+console.log(similarity1);
 
-const similarity2 = textSimilarity('JavaScript', 'javascript', 2, true); // Comparison is case-sensitive and the strings differ in case
-console.log(similarity2); 
+const similarity2 = textSimilarity("JavaScript", "javascript", 2, true); // Comparison is case-sensitive and the strings differ in case
+console.log(similarity2);
 
-
-const similarity3 = textSimilarity('apple pie', 'apple', 3); // Substring length of 3, ignoring case by default
-console.log(similarity3); 
+const similarity3 = textSimilarity("apple pie", "apple", 3); // Substring length of 3, ignoring case by default
+console.log(similarity3);
 ```
 
 ## tsup
