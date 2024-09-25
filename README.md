@@ -1,6 +1,6 @@
 # **text-similarity**
 
-The textSimilarity function calculates the similarity between two strings using a substring matching approach. It can be customized with a specified substring length and case sensitivity. The function boosts the score if one string starts with or contains the other, and it returns a similarity score between 0 and 1.
+The **textSimilarity** function calculates the similarity between two strings using a substring matching approach. It can be customized with a specified substring length and case sensitivity. The function boosts the score if one string starts with or contains the other, and it returns a similarity score between 0 and 1.
 
 ## Installation
 
