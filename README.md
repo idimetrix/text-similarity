@@ -1,4 +1,4 @@
-# **text-similarity**
+# **text-similarity3**
 
 The **textSimilarity** function calculates the similarity between two strings using a substring matching approach. It can be customized with a specified substring length and case sensitivity. The function boosts the score if one string starts with or contains the other, and it returns a similarity score between 0 and 1.
 
@@ -7,17 +7,17 @@ The **textSimilarity** function calculates the similarity between two strings us
 You can install the package using **npm**, **yarn**, or **pnpm**.
 
 ```bash
-pnpm add text-similarity
+pnpm add text-similarity3
 
-yarn install text-similarity
+yarn install text-similarity3
 
-npm install text-similarity
+npm install text-similarity3
 ```
 
 ## Usage
 
 ```tsx
-import { textSimilarity } from "text-similarity";
+import { textSimilarity } from "text-similarity3";
 
 const similarity1 = textSimilarity("hello world", "hello", 2); // Default parameters (substring length: 2, case insensitive)
 console.log(similarity1);
@@ -74,4 +74,4 @@ $ npm publish
 
 ## test package
 
-https://www.npmjs.com/package/text-similarity
+https://www.npmjs.com/package/text-similarity3
